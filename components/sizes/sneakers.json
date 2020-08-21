@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sizes_sneakers",
+  "info": {
+    "name": "sneakers",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "size_38": {
+      "type": "boolean",
+      "default": false
+    },
+    "size_39": {
+      "type": "boolean",
+      "default": false
+    },
+    "size_40": {
+      "type": "boolean",
+      "default": false
+    },
+    "size_41": {
+      "type": "boolean",
+      "default": false
+    },
+    "size_42": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

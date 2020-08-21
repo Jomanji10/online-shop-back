@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sneakers_sizes",
+  "info": {
+    "name": "sneakers",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "sizesInStock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sizes.sneakers"
+    }
+  }
+}

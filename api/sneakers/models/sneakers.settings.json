@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sneakers",
+  "info": {
+    "name": "Sneakers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "integer",
+      "required": true,
+      "min": 36,
+      "max": 47
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "running",
+        "urban",
+        "tracking"
+      ],
+      "required": true
+    },
+    "photoUrl": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "min": 1,
+      "required": true
+    }
+  }
+}
